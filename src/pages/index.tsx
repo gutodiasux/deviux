@@ -5,7 +5,7 @@ import {
   Text
 } from '@chakra-ui/react'
 
-function Home() {
+export default function Home() {
   return (
     <Flex w={'100%'} justify={'center'} h={'100vh'} alignItems={'center'}>
       <Box textAlign={'center'}>
@@ -15,5 +15,3 @@ function Home() {
     </Flex>
   )
 }
-
-export default Home
